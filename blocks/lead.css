@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 92px;
+  padding: 0 148px;
 }
 
 .lead__title {
@@ -34,13 +35,13 @@
 @media screen and (max-width: 1024px) {
   .lead {
     margin-bottom: 90px;
+    padding: 0;
   }
 
   .lead__title {
     font-size: 75px;
     line-height: 1.05;
     max-width: 530px;
-    padding: 0 24px;
     margin-bottom: 25px;
   }
 
@@ -59,7 +60,6 @@
     font-size: 40px;
     line-height: 1.1;
     max-width: 228px;
-    padding: 0 16px;
     margin-bottom: 16px;
   }
 
